@@ -52,7 +52,7 @@ binary_sensor:
     name: "Water sensor status"
     internal: False
     pin:
-      number: D2
+      number: D6
       inverted: true
       mode:
         input: true
@@ -66,7 +66,7 @@ sensor:
   - platform: pulse_meter #pulse_counter
     internal_filter_mode: "PULSE"
     internal_filter: 50ms
-    pin: D2
+    pin: D6
     id: watermeter_flow
     name: "watermeter flow"
     state_class: measurement
