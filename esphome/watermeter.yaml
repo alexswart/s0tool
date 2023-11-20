@@ -1,7 +1,7 @@
 # Delen en bewerken mag maar laat deze eerste regels staan.
-# Bron : https://www.huizebruin.nl
+# Bron : https://www.alexswart.net
 # Bron File : https://github.com/alexswart/s0tool/tree/main/esphome
-# © Huizebruin.nl
+# © alexswart
 substitutions:
   name: s0tool-watermeter
 
@@ -13,7 +13,7 @@ esphome:
   esp8266_restore_from_flash: true
   comment: '${device_description}'
   project:
-    name: "huizebruin.${name}"
+    name: "alexswart.${name}"
     version: "${vdate}"
 
 dashboard_import:
