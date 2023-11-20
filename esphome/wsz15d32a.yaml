@@ -13,15 +13,15 @@ esphome:
   esp8266_restore_from_flash: true
   comment: '${device_description}'
   project:
-    name: "huizebruin.${name}"
+    name: "alexswart.${name}"
     version: "${vdate}"
   
 dashboard_import:
-  package_import_url: github://huizebruin/s0tool/esphome/wsz15d32a.yaml
+  package_import_url: github://alexswart/s0tool/esphome/wsz15d32a.yaml
 
 packages:
   remote_package:
-    url: https://github.com/huizebruin/s0tool/
+    url: https://github.com/alexswart/s0tool/
     ref: main
     files:
       - esphome/components/basis.yaml
