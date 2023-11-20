@@ -17,11 +17,11 @@ esphome:
     version: "${vdate}"
   
 dashboard_import:
-  package_import_url: github://huizebruin/s0tool/esphome/pulscounter_flux.yaml
+  package_import_url: github://alexswart/s0tool/esphome/pulscounter_flux.yaml
 
 packages:
   remote_package:
-    url: https://github.com/huizebruin/s0tool/
+    url: https://github.com/alexswart/s0tool/
     ref: main
     files:
       - esphome/components/basis.yaml
